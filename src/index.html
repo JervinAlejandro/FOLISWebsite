@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../dist/output.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,7 +32,7 @@
           <!-- donate button -->
           <button
             type="button"
-            class="text-black md:font-bold font-bold rounded-lg text-sm p-3 text-center mr-3 md:mr-0 bg-[#FDCB08] hover:bg-transparent hover:text-black border border-transparent hover:border-yellow-500"
+            class="text-black md:font-black font-bold rounded-lg text-sm p-3 text-center mr-3 md:mr-0 bg-[#FDCB08] hover:bg-transparent hover:text-black border border-transparent hover:border-yellow-500"
           >
             DONATE
           </button>
@@ -71,12 +71,12 @@
           id="navbar-sticky"
         >
           <ul
-            class="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white"
+            class="flex flex-col p-8 md:p-0 mt-4 font-medium rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white"
           >
             <li>
               <a
                 href="#"
-                class="block py-10 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:bg-transparent md:font-bold md:p-0 border-b-4 border-solid border-[#FFB338]"
+                class="block py-10 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:bg-transparent md:font-black md:p-0 border-b-4 border-solid border-[#FFB338]"
                 aria-current="page"
                 >HOME</a
               >
@@ -118,11 +118,11 @@
       />
 
       <div
-        class="relative z-10 flex flex-col justify-center items-center p-4 pb-24"
+        class="relative z-10 flex flex-col justify-center items-center p-8 pb-24"
       >
         <!-- H1 Title -->
         <h1
-          class="text-5xl lg:text-6xl text-white font-bold pb-12 pt-44 md:pr-40 lg:pr-[16rem] xl:pr-[34rem] lg:pt-56 lg:leading-[1.25]"
+          class="text-5xl lg:text-6xl text-white font-black pb-12 pt-44 md:pr-40 lg:pr-[16rem] xl:pr-[34rem] lg:pt-56 lg:leading-[1.25]"
         >
           PERTH'S<br />
           <span class="text-[#FFB338]">ONE-STOP</span><br />
@@ -131,24 +131,23 @@
             >COMMUNITY HUB</span
           >
         </h1>
+
         <!-- Three Sections -->
         <div
           class="grid grid-cols-1 md:grid-cols-9 w-full max-w-[118rem] 2xl:px-64 md:pt-8 xl:pb-12 xl:pt-16"
         >
           <!-- Section One -->
           <div
-            class="flex flex-col justify-center bg-[#007A48] md:col-start-2 md:col-span-3 p-8"
+            class="flex flex-col justify-center p-8 bg-[#007A48] text-white font-normal text-xl md:col-start-2 md:col-span-3"
           >
-            <span class="font-normal text-2xl text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              placerat odio in dictum efficitur. Maecenas in dolor vitae augue
-              tincidunt vestibulum.
-            </span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            placerat odio in dictum efficitur. Maecenas in dolor vitae augue
+            tincidunt vestibulum.
           </div>
 
           <!-- Section Two -->
           <div
-            class="flex flex-col justify-center bg-[#FFB338] items-center md:col-start-5 md:col-span-2 p-8"
+            class="flex flex-col justify-center p-8 bg-[#FFB338] text-black text-xl font-normal items-center md:col-start-5 md:col-span-2 text-center"
           >
             <div class="grid lg:grid-cols-2 auto-cols-auto items-center">
               <img
@@ -161,14 +160,12 @@
                 >5000+</span
               >
             </div>
-            <span class="md:pt-2 lg:pt-5 font-medium text-2xl"
-              >Donation Received</span
-            >
+            <span class="md:pt-2 lg:pt-5">Donation Received</span>
           </div>
 
           <!-- Section Three -->
           <div
-            class="flex flex-col justify-center bg-[#FDCB08] items-center md:col-start-7 md:col-span-2 p-8"
+            class="flex flex-col justify-center p-8 bg-[#FDCB08] text-black text-xl items-center md:col-start-7 md:col-span-2 text-center"
           >
             <div class="grid lg:grid-cols-2 auto-cols-auto items-center">
               <img
@@ -181,9 +178,7 @@
                 >2+</span
               >
             </div>
-            <span class="md:pt-2 lg:pt-5 font-medium text-2xl"
-              >Active Campaigns</span
-            >
+            <span class="md:pt-2 lg:pt-5">Active Campaigns</span>
           </div>
         </div>
       </div>
@@ -210,7 +205,7 @@
             class="w-auto h-12 md:h-16 xl:h-20"
           />
           <img
-            src="../assets/p-4.png"
+            src="../assets/p-8.png"
             alt="Logo 4"
             class="w-auto h-12 md:h-16 xl:h-20"
           />
@@ -232,11 +227,9 @@
       ></div>
 
       <!-- who we are -->
-      <div class="flex flex-col items-center">
-        <h1 class="text-4xl lg:text-5xl font-bold pt-16">WHO WE ARE</h1>
-        <div
-          class="grid grid-cols-1 md:grid-cols-3 px-14 md:px-44 pb-16 pt-20 md:space-x-16"
-        >
+      <div class="flex flex-col items-center space-y-16 pb-16">
+        <h1 class="text-4xl lg:text-5xl font-black pt-16">WHO WE ARE</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 md:space-x-16 md:px-36">
           <!-- OUR VISION section -->
           <div class="section flex flex-col items-center space-y-8">
             <img
@@ -244,13 +237,11 @@
               alt="Vision"
               class="w-auto h-32 md:h-40"
             />
-
             <span class="font-bold text-3xl text-[#F59700]">OUR VISION</span>
-
-            <span>
-              A one-stop community services hub providing holistic
-              person-centred support towards independence and wellbeing.
-            </span>
+            <span
+              >A one-stop community services hub providing holistic
+              person-centred support towards independence and wellbeing.</span
+            >
           </div>
 
           <!-- OUR MISSION section -->
@@ -277,7 +268,7 @@
               class="w-auto h-32 md:h-40"
             />
             <span class="font-bold text-3xl text-[#F59700]">WE SERVE</span>
-            <span class="text-left"
+            <span
               >Individuals facing mental health, domestic violence victims,
               grieving families, marginalised elders, children with
               disabilities, and disadvantaged families.</span
@@ -287,29 +278,30 @@
       </div>
 
       <!-- divider -->
-      <div class="border-b-4 border-black w-full max-w-4xl mx-auto pt-8"></div>
+      <div class="border-b-4 border-black w-full max-w-4xl mx-auto py-8"></div>
 
       <!-- Joshie's Hub -->
-      <div class="flex flex-row items-center py-32 px-44 space-x-8">
+      <div
+        class="flex md:flex-row flex-col-reverse items-center py-28 space-x-16 md:px-36"
+      >
         <div class="flex flex-col space-y-2">
-          <span class="text-4xl font-bold">JOSHIE'S HUB</span>
+          <span class="text-4xl font-black">JOSHIE'S HUB</span>
           <span
             >This service enables children with physical and intellectual
             disabilities to acquire life skills and discover meaningful roles in
-            society. 
+            society.
           </span>
           <span class="text-[#007A48] font-semibold text-xl"
             >Visit the page >
           </span>
         </div>
-
         <img
-          class="w-auto h-32 md:h-96"
+          class="w-auto h-full md:h-96 pb-8 md:pb-0"
           src="../assets/JoshieVid.png"
-          alt="JoshieVideo"
+          alt="Joshie's Video"
         />
       </div>
     </div>
   </body>
-  <script src="../src/javascript.js"></script>
+  <script src="../dist/javascript.js"></script>
 </html>
