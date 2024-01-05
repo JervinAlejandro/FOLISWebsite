@@ -355,7 +355,9 @@
       <div
         class="flex flex-col items-center px-16 py-10 xl:py-28 space-y-8 xl:space-x-16 xl:px-36 xl:flex-row"
       >
-        <div class="relative w-full xl:pt-8 md:pt-0 xl:order-first">
+        <div
+          class="relative w-full xl:pt-8 md:pt-0 xl:order-first xl:min-w-[28rem] 2xl:min-w-[40rem]"
+        >
           <img
             class="w-full"
             src="../assets/Barnabas.png"
@@ -365,12 +367,12 @@
 
         <div class="flex flex-col space-y-2 order-first">
           <span class="text-4xl font-bold">Barnabas Life Services</span>
-          <span
-            >Run by volunteers, Barnabas Life Services is a 24-hour response
+          <span>
+            Run by volunteers, Barnabas Life Services is a 24-hour response
             service that provides non-perishable essential items and cooked food
-            to disadvantaged individuals and families in the community. 
+            to disadvantaged individuals and families in the community.
           </span>
-          <a href="#" class="text-[#F59700] font-semibold text-xl"
+          <a href="#" class="text-[#F59700] font-semibold text-xl pb-8"
             >Visit the page
             <img
               class="inline-block svg-icon w-auto h-8"
@@ -385,28 +387,27 @@
       <div
         class="flex flex-col items-center px-16 py-10 xl:py-28 space-y-8 xl:space-x-16 xl:px-36 xl:flex-row"
       >
-        <div class="flex flex-col space-y-2 w-full">
+        <div class="flex flex-col space-y-2 order-first">
           <span class="text-4xl font-bold">Education Services</span>
-          <span>
-            To equip and empower individuals who have been unable to connect
+          <span
+            >To equip and empower individuals who have been unable to connect
             with mainstream educational services.
           </span>
-
-          <a href="#" class="text-[#0C7FF8] font-semibold text-xl">
-            Visit the page
+          <a href="#" class="text-[#0C7FF8] font-semibold text-xl"
+            >Visit the page
             <img
-              class="inline-block svg-icon w-auto h-8 svg-yellow"
+              class="inline-block svg-icon w-auto h-8"
               src="../assets/arrow.svg"
-              alt=""
             />
           </a>
         </div>
 
-        <div class="relative xl:pt-8 md:pt-0 w-full flex-shrink-0 flex-grow-0">
+        <div class="relative w-full xl:pt-8 md:pt-0 xl:order-first">
           <img
+            class="w-full"
             src="../assets/Education.png"
-            alt="Barnabas"
-            class="w-full h-auto"
+            alt="Education"
+            class="w-full"
           />
         </div>
       </div>
@@ -414,41 +415,65 @@
 
     <!-- divider -->
     <div class="flex flex-col w-full py-10">
-      <div class="border-b-2 border-[#333333]"></div>
+      <div class="border-b-[2px] border-[#333333a9]"></div>
     </div>
 
     <!-- footer -->
 
-    <footer class="flex flex-row bg-slate-700">
-      <!-- LOGO -->
-      <div class="bg-slate-600">
-        <a href="#" class="flex items-center">
-          <img
-            src="../assets/Sanctuary.png"
-            class="h-20 mr-3"
-            alt="FOLSI LOGO"
-          />
-        </a>
+    <footer
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3"
+    >
+      <div class="flex flex-col lg:flex-row">
+        <!-- LOGO -->
+        <div class="flex flex-col lg:pr-44">
+          <a href="#" class="flex items-center">
+            <img
+              src="../assets/Sanctuary.png"
+              class="h-16 mr-3"
+              alt="FOLSI LOGO"
+            />
+          </a>
+          <span class="text-sm pb-12 lg:pb-32">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            vel aliquam dui, a interdum lacus. Sed tempus odio et urna luctus,
+            tincidunt feugiat odio malesuada. Suspendisse et semper nulla, non
+            iaculis ex. Integer blandit scelerisque vestibulum.
+          </span>
+          <a href="#" class="flex items-center justify-center lg:justify-start">
+            <img
+              src="../assets/facebook-icon.png"
+              class="h-4 mr-3"
+              alt="FOLSI LOGO"
+            />
+          </a>
+        </div>
+
+        <!-- links -->
+        <div class="flex flex-row pt-8">
+          <ul class="space-y-1 lg:space-y-3 font-semibold">
+            <li><a href="#">Purpose</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">The Sanctuary</a></li>
+            <li><a href="#">Our Board</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Donation</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col pt-8 lg:pl-44">
+          <h1 class="text-xl font-bold pb-2 lg:pb-8">SUPPORT</h1>
+          <span class="text-sm">info@folsi.org.au</span>
+        </div>
       </div>
 
-      <div class="bg-slate-600">
-        <a href="#" class="flex items-center">
-          <img
-            src="../assets/Sanctuary.png"
-            class="h-20 mr-3"
-            alt="FOLSI LOGO"
-          />
-        </a>
+      <!-- divider -->
+      <div class="flex flex-col w-full py-10">
+        <div class="border-b-[1px] border-[#333333bd]"></div>
       </div>
 
-      <div class="bg-slate-600">
-        <a href="#" class="flex items-center">
-          <img
-            src="../assets/Sanctuary.png"
-            class="h-20 mr-3"
-            alt="FOLSI LOGO"
-          />
-        </a>
+      <div class="flex flex-wrap justify-between">
+        2023 Fount of Life Sanctuary Inc. All Rights Reserved
       </div>
     </footer>
   </body>
