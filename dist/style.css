@@ -630,6 +630,18 @@ video {
   z-index: 20;
 }
 
+.order-2 {
+  order: 2;
+}
+
+.order-first {
+  order: -9999;
+}
+
+.order-last {
+  order: 9999;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -780,6 +792,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .flex-wrap {
@@ -1349,6 +1365,10 @@ html {
 }
 
 @media (min-width: 1280px) {
+  .xl\:order-first {
+    order: -9999;
+  }
+
   .xl\:h-20 {
     height: 5rem;
   }
