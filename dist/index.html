@@ -140,23 +140,22 @@
           <div
             class="flex flex-col justify-center p-8 bg-[#007A48] text-white font-normal text-xl md:col-start-2 md:col-span-3"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            placerat odio in dictum efficitur. Maecenas in dolor vitae augue
-            tincidunt vestibulum.
+            Transforming lives in Western Australia with compassion and
+            strength. We provide holistic, empowering support to those facing
+            mental health challenges, domestic violence, and marginalisation.
           </div>
 
           <!-- Section Two -->
           <div
             class="flex flex-col justify-center p-8 bg-[#FFB338] text-black text-xl font-normal items-center md:col-start-5 md:col-span-2 text-center"
           >
-            <div class="grid lg:grid-cols-2 auto-cols-auto items-center">
+            <div class="flex flex-col lg:flex-row justify-center items-center">
               <img
                 src="../assets/donation-logo.png"
                 alt="Donation"
                 class="w-auto object-contain h-16 md:h-24"
               />
-              <span
-                class="w-full text-center font-bold text-3xl md:pt-2 lg:pt-0 lg:pl-2"
+              <span class="font-bold text-3xl md:pt-2 lg:pt-0 lg:pl-2"
                 >5000+</span
               >
             </div>
@@ -167,16 +166,13 @@
           <div
             class="flex flex-col justify-center p-8 bg-[#FDCB08] text-black text-xl items-center md:col-start-7 md:col-span-2 text-center"
           >
-            <div class="grid lg:grid-cols-2 auto-cols-auto items-center">
+            <div class="flex flex-col lg:flex-row justify-center items-center">
               <img
                 src="../assets/campaign-logo.png"
                 alt="Campaign"
                 class="w-auto object-cover h-16 md:h-24"
               />
-              <span
-                class="w-full text-center font-bold text-3xl md:pt-2 lg:pt-0"
-                >2+</span
-              >
+              <span class="font-bold text-3xl md:pt-2 lg:pt-0 lg:pl-2">3+</span>
             </div>
             <span class="md:pt-2 lg:pt-5">Active Campaigns</span>
           </div>
@@ -238,7 +234,7 @@
         <h1 class="text-4xl lg:text-5xl font-black pt-16">WHO WE ARE</h1>
         <div class="grid grid-cols-1 lg:grid-cols-3 lg:space-x-16 lg:px-36">
           <!-- OUR VISION section -->
-          <div class="section flex flex-col items-center space-y-8">
+          <div class="section flex flex-col items-center space-y-8 lg:pt-0">
             <img
               src="../assets/vision.png"
               alt="Vision"
@@ -252,7 +248,9 @@
           </div>
 
           <!-- OUR MISSION section -->
-          <div class="section flex flex-col items-center space-y-8">
+          <div
+            class="section flex flex-col items-center space-y-8 pt-8 lg:pt-0"
+          >
             <img
               src="../assets/mission.png"
               alt="Mission"
@@ -268,7 +266,9 @@
           </div>
 
           <!-- WE SERVE section -->
-          <div class="section flex flex-col items-center space-y-8">
+          <div
+            class="section flex flex-col items-center space-y-8 pt-8 lg:pt-0"
+          >
             <img
               src="../assets/help.png"
               alt="Help"
@@ -355,7 +355,9 @@
       <div
         class="flex flex-col items-center px-16 py-10 xl:py-28 space-y-8 xl:space-x-16 xl:px-36 xl:flex-row"
       >
-        <div class="relative w-full xl:pt-8 md:pt-0 xl:order-first">
+        <div
+          class="relative w-full xl:pt-8 md:pt-0 xl:order-first xl:min-w-[28rem] 2xl:min-w-[40rem]"
+        >
           <img
             class="w-full"
             src="../assets/Barnabas.png"
@@ -365,12 +367,12 @@
 
         <div class="flex flex-col space-y-2 order-first">
           <span class="text-4xl font-bold">Barnabas Life Services</span>
-          <span
-            >Run by volunteers, Barnabas Life Services is a 24-hour response
+          <span>
+            Run by volunteers, Barnabas Life Services is a 24-hour response
             service that provides non-perishable essential items and cooked food
-            to disadvantaged individuals and families in the community. 
+            to disadvantaged individuals and families in the community.
           </span>
-          <a href="#" class="text-[#F59700] font-semibold text-xl"
+          <a href="#" class="text-[#F59700] font-semibold text-xl pb-8"
             >Visit the page
             <img
               class="inline-block svg-icon w-auto h-8"
@@ -385,28 +387,27 @@
       <div
         class="flex flex-col items-center px-16 py-10 xl:py-28 space-y-8 xl:space-x-16 xl:px-36 xl:flex-row"
       >
-        <div class="flex flex-col space-y-2 w-full">
+        <div class="flex flex-col space-y-2 order-first">
           <span class="text-4xl font-bold">Education Services</span>
-          <span>
-            To equip and empower individuals who have been unable to connect
+          <span
+            >To equip and empower individuals who have been unable to connect
             with mainstream educational services.
           </span>
-
-          <a href="#" class="text-[#0C7FF8] font-semibold text-xl">
-            Visit the page
+          <a href="#" class="text-[#0C7FF8] font-semibold text-xl"
+            >Visit the page
             <img
-              class="inline-block svg-icon w-auto h-8 svg-yellow"
+              class="inline-block svg-icon w-auto h-8"
               src="../assets/arrow.svg"
-              alt=""
             />
           </a>
         </div>
 
-        <div class="relative xl:pt-8 md:pt-0 w-full flex-shrink-0 flex-grow-0">
+        <div class="relative w-full xl:pt-8 md:pt-0 xl:order-first">
           <img
+            class="w-full"
             src="../assets/Education.png"
-            alt="Barnabas"
-            class="w-full h-auto"
+            alt="Education"
+            class="w-full"
           />
         </div>
       </div>
@@ -414,42 +415,78 @@
 
     <!-- divider -->
     <div class="flex flex-col w-full py-10">
-      <div class="border-b-2 border-[#333333]"></div>
+      <div class="border-b-[2px] border-[#333333a9]"></div>
     </div>
 
     <!-- footer -->
 
-    <footer class="flex flex-row bg-slate-700">
-      <!-- LOGO -->
-      <div class="bg-slate-600">
-        <a href="#" class="flex items-center">
-          <img
-            src="../assets/Sanctuary.png"
-            class="h-20 mr-3"
-            alt="FOLSI LOGO"
-          />
-        </a>
+    <footer
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3"
+    >
+      <div class="flex flex-col lg:flex-row">
+        <!-- LOGO -->
+        <div class="flex flex-col lg:pr-44">
+          <a href="#" class="flex items-center">
+            <img
+              src="../assets/Sanctuary.png"
+              class="h-16 mr-3"
+              alt="FOLSI LOGO"
+            />
+          </a>
+          <span class="text-sm pb-12 lg:pb-24">
+            At the forefront in Western Australia, we're a beacon of hope and
+            transformation, dedicated to empowering and uplifting lives. Our
+            holistic support extends to those battling mental health issues,
+            suffering from domestic violence, and living on society's fringes.
+            We champion the cause of marginalised elders, children with
+            disabilities, and disadvantaged families, striving tirelessly to
+            transition them from mere survival to a thriving existence. Join us
+            in shaping a compassionate, resilient community where everyone finds
+            the support they need to flourish.
+          </span>
+          <a href="#" class="flex items-center justify-center lg:justify-start">
+            <img
+              src="../assets/facebook-icon.png"
+              class="h-4 mr-3"
+              alt="FOLSI LOGO"
+              `1
+            />
+          </a>
+        </div>
+
+        <!-- links -->
+        <div class="flex flex-row pt-8">
+          <ul class="space-y-1 lg:space-y-3 font-semibold">
+            <li><a href="#">Purpose</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">The Sanctuary</a></li>
+            <li><a href="#">Our Board</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Donation</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col pt-8 lg:pl-44">
+          <h1 class="text-xl font-bold pb-2 lg:pb-8">SUPPORT</h1>
+          <span class="text-sm">info@folsi.org.au</span>
+        </div>
       </div>
 
-      <div class="bg-slate-600">
-        <a href="#" class="flex items-center">
-          <img
-            src="../assets/Sanctuary.png"
-            class="h-20 mr-3"
-            alt="FOLSI LOGO"
-          />
-        </a>
+      <!-- divider -->
+      <div class="flex flex-col w-full py-10">
+        <div class="border-b-[1px] border-[#333333bd]"></div>
       </div>
 
-      <div class="bg-slate-600">
-        <a href="#" class="flex items-center">
-          <img
-            src="../assets/Sanctuary.png"
-            class="h-20 mr-3"
-            alt="FOLSI LOGO"
-          />
-        </a>
+      <div class="flex flex-wrap justify-between">
+        <div class="flex flex-row items-center justify-center">
+          <img src="../assets/copyright.png" alt="" class="h-3 pr-2" />
+          <span class="text-xs font-thin">
+            2024 Fount of Life Sanctuary Inc. All Rights Reserved
+          </span>
+        </div>
       </div>
+      <a href="#" class="text-xs font-thin pt-4 lg:pt-0">Terms & Conditions</a>
     </footer>
   </body>
   <script src="../dist/javascript.js"></script>
