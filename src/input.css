@@ -10,3 +10,11 @@ html {
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
 }
+
+.bg-white {
+  background-color: white;
+}
+
+.text-black {
+  color: black;
+}
